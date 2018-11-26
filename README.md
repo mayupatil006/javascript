@@ -1,7 +1,8 @@
 # javascript
 Demo Programs
 # Tags
-## <noscript>
+
+<b><noscript></b>
 The <noscript> tag defines an alternate content for users that have disabled scripts in their browser or have a browser that doesn't support script.
 
 The <noscript> element can be used in both <head> and <body>.
