@@ -1,0 +1,18 @@
+<p>
+	test
+</p>
+<p id="para">
+	TEST1
+</p>
+<p class="m"></p>
+<button onclick="selectpara()">ENTER</button>
+<script type="text/javascript">
+	function selectpara()
+	{
+		//alert("test")
+		console.log(document.querySelector("p"));
+		document.querySelector("p").innerHTML="NEW";
+		document.querySelector("#para").innerHTML="hello"
+		document.querySelector(".m").innerHTML="M";
+	}
+</script>

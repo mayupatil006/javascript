@@ -1,0 +1,16 @@
+<p>
+	<img src="128/x1.jpeg"onmouseover="show(this,src)">
+	<img src="128/x2.jpeg"onmouseover="show(this,src)">
+	<img src="128/x3.jpeg"onmouseover="show(this,src)">
+</p>
+<p>
+	<img src="832/x1.jpeg"id="main">
+</p>
+
+<script type="text/javascript">
+	function show(xyz)
+	{
+		//console.log(xyz);
+		document.querySelector("#main").src=xyz.replace("128","832")
+	}
+</script>
