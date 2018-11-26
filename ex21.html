@@ -1,0 +1,30 @@
+<script type="text/javascript">
+	var record=[100,200,300,400,500,600]
+	console.log(record);
+
+	var ans=record.indexOf(899);
+	console.log(ans); //-1
+
+	var ans=record.indexOf(200);
+	console.log(ans);
+
+	var ans=record.lastIndexOf(600);
+	console.log(ans);
+
+	//add val
+
+	record.push(800);
+	console.log(record);
+
+	record.pop();
+	console.log(record);
+
+	record.unshift(1800)
+	console.log(record);
+
+	record.shift()
+	console.log(record);
+
+	delete record[3];
+	console.log(record)
+</script>
