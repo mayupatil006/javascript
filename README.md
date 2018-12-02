@@ -11,3 +11,4 @@ The noscript element can be used in both head and body.
 When used inside the head element: noscript must contain only link, style, and meta elements.
 
 The content inside the <noscript> element will be displayed if scripts are not supported, or are disabled in the user's browser.
+  h
