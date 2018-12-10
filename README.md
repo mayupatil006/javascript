@@ -131,6 +131,7 @@ Note: The alert box takes the focus away from the current window, and forces the
 	}
 </script>
 ```
+Done till experiment 6
 
 # Git Command
 1. git add . (It adds all file of project to commit)
