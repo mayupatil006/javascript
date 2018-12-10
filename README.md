@@ -59,7 +59,26 @@ An alert box is often used if you want to make sure information comes through to
 
 Note: The alert box takes the focus away from the current window, and forces the browser to read the message. Do not overuse this method, as it prevents the user from accessing other parts of the page until the box is close
 
+# typeof 
+```
+<script type="text/javascript">
+	data=10;
+	console.log(typeof data); // typeof defines data is number
+	data=20.4;
+	console.log(typeof data); // typeof defines data is number
+	data='a';
+	console.log(typeof data); // typeof defines data is string
+	data='hello';
+	console.log(typeof data); // typeof defines data is string
+	data=alert;
+	console.log(typeof data); // typeof defines data is function
+	data=document;
+	console.log(typeof data); // typeof defines data is object
+	data=true;
+	console.log(typeof data); // typeof defines data is boolean
 
+</script>
+```
 # Git Command
 1. git add . (It adds all file of project to commit)
 2. git commit -m "Message" (commit code locally)
