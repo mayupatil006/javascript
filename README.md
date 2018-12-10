@@ -79,6 +79,25 @@ Note: The alert box takes the focus away from the current window, and forces the
 
 </script>
 ```
+
+# onClick and function
+
+```
+<script type="text/javascript">
+	function calculation() // its function 
+	{
+		data1=10;
+		data2=20;
+		sum=data1+data2;
+		console.log(sum)
+	}
+	calculation()
+
+</script>
+<button onclick="calculation()">Enter</button> // on Button Click calculation method get clicked
+```
+
+
 # Git Command
 1. git add . (It adds all file of project to commit)
 2. git commit -m "Message" (commit code locally)
