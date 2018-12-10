@@ -118,6 +118,19 @@ Note: The alert box takes the focus away from the current window, and forces the
 	
 </script>
 ```
+# Print html inside butoon
+
+```
+<button onclick="show(this)">ENTER</button>
+
+<script type="text/javascript">
+	function show(xyz)
+	{
+		console.log(xyz)
+		xyz.innerHTML="HELLO"
+	}
+</script>
+```
 
 # Git Command
 1. git add . (It adds all file of project to commit)
