@@ -52,6 +52,14 @@ When used inside the head element: noscript tag must contain only link tag, styl
 The content inside the noscript tag element will be displayed if scripts are not supported, or are disabled in the user's browser.
 
 
+# alert() in javascript
+The alert() method displays an alert box with a specified message and an OK button.
+
+An alert box is often used if you want to make sure information comes through to the user.
+
+Note: The alert box takes the focus away from the current window, and forces the browser to read the message. Do not overuse this method, as it prevents the user from accessing other parts of the page until the box is close
+
+
 # Git Command
 1. git add . (It adds all file of project to commit)
 2. git commit -m "Message" (commit code locally)
