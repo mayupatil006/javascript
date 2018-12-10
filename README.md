@@ -97,6 +97,27 @@ Note: The alert box takes the focus away from the current window, and forces the
 <button onclick="calculation()">Enter</button> // on Button Click calculation method get clicked
 ```
 
+# Multiple operations on multiple click javascript
+```
+<button onclick="calculate(20,120)">ENTER 2</button>
+<script type="text/javascript">
+	function calculate(x,y)
+	{
+		console.log(x+y);
+	}
+</script>
+
+
+<button onclick="subtraction(20,10)">Subtraction A</button>
+<button onclick="subtraction(80,10)">Subtraction B</button>
+
+<script type="text/javascript">
+	function subtraction(a,b) {
+		console.log(a-b)
+	}
+	
+</script>
+```
 
 # Git Command
 1. git add . (It adds all file of project to commit)
